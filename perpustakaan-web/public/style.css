@@ -1,0 +1,203 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(120deg,#d4f1f9,#fff0f6); /* Background baru */
+    padding: 40px;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 25px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0 12px 30px rgba(0,0,0,.08);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #00796b; /* warna hijau gelap */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #b2dfdb; /* hijau pastel */
+    color: #004d40;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+    background: #e0f2f1; /* hover lembut */
+}
+
+.btn-primary {
+    background: #4dd0e1; /* biru toska */
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.btn-warning {
+    background: #ffd54f; /* kuning pastel */
+    padding: 6px 10px;
+    border-radius: 6px;
+    color: #000;
+    text-decoration: none;
+}
+
+.btn-danger {
+    background: #ff8a80; /* merah muda lembut */
+    padding: 6px 10px;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ================= LOGIN SUPER CANTIK ================= */
+
+.login-bg {
+    min-height: 100vh;
+    background: linear-gradient(135deg,
+        #a0e5e0,
+        #fbe1ff,
+        #fff4f0); /* gradient baru */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.login-container {
+    width: 900px;
+    height: 500px;
+    background: #fff;
+    border-radius: 24px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+}
+
+/* PANEL KIRI */
+.login-left {
+    width: 45%;
+    background: linear-gradient(160deg,
+        #4dd0e1,
+        #80cbc4,
+        #a5d6a7); /* warna biru-hijau */
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-left h1 {
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+
+.login-left h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.login-left p {
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+/* PANEL KANAN */
+.login-card {
+    width: 55%;
+    padding: 60px 50px;
+}
+
+.login-card h3 {
+    font-size: 28px;
+    color: #00796b; /* hijau gelap */
+    margin-bottom: 30px;
+}
+
+/* INPUT FLOATING */
+.input-group {
+    position: relative;
+    margin-bottom: 28px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 14px 12px;
+    border-radius: 14px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    outline: none;
+}
+
+.input-group label {
+    position: absolute;
+    top: 50%;
+    left: 14px;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 13px;
+    pointer-events: none;
+    transition: 0.3s;
+    background: white;
+    padding: 0 6px;
+}
+
+.input-group input:focus + label,
+.input-group input:valid + label {
+    top: -8px;
+    font-size: 11px;
+    color: #26a69a; /* hijau toska */
+}
+
+/* BUTTON */
+.login-card button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(135deg,
+        #4dd0e1,
+        #80cbc4,
+        #a5d6a7); /* button baru */
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-card button:hover {
+    transform: translateY(-2px);
+    opacity: 0.95;
+}
+
+/* FOOTER */
+.login-footer {
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.login-footer a {
+    color: #26a69a;
+    font-weight: bold;
+    text-decoration: none;
+}
