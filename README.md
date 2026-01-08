@@ -2,7 +2,7 @@
 # Nama : SHEILA ANTICA OKTAVIANI
 # Kelas : TI.24.A1
 # NIM : 312410002
-# Aplikasi Data Buku Perpustakaan
+# Aplikasi Daftar Buku Perpustakaan
 ## Deksripsi
 Aplikasi ini merupakan sebuah aplikasi web sederhana yang dikembangkan menggunakan PHP Native dengan menerapkan konsep Object Oriented Programming (OOP) serta arsitektur Model-View-Controller (MVC). Aplikasi ini dirancang untuk mengelola data buku pada sebuah sistem perpustakaan dan disusun sebagai bagian dari pemenuhan tugas Ujian Akhir Semester (UAS) pada mata kuliah Pemrograman Web.
 
