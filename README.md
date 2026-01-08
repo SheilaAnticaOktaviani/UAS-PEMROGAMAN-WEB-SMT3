@@ -59,8 +59,8 @@ http://localhost/perpustakaan-web/
 - Email : admin123@gmail.com
 - Password: admin123
 # User
-Email : user123@gmail.com
-Password: user123
+- Email : user123@gmail.com
+- Password: user123
 
 # Dokumentasi Aplikasi
 <img width="959" height="401" alt="image" src="https://github.com/user-attachments/assets/79c270e4-f821-407a-8757-e3d75af5198a" />
